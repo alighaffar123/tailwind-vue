@@ -36,7 +36,7 @@
                         <p class=" text-[15px] absolute bottom-[-25px] left-[5px]  text-center text-[#756f6f] ">United State</p>
                   
                     </div>
-                    <div  class="w-[100px] h-[100px] bg-[#ccc] mx-[75px] rounded-full relative ">
+                    <div  class="w-[100px] h-[100px] bg-[#ccc] mx-auto rounded-full relative ">
                         
                         <div style="clip: rect(0px, 100px, 100px, 50px);" class="w-[100px] h-[100px] rounded-full absolute ">
                             <div style="clip: rect(0px, 50px, 100px, 0px);" class="rotate-90 animate-[fill_ease-in-out_3s] w-[100px] h-[100px] rounded-full  bg-primary absolute"></div>
