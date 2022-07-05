@@ -31,7 +31,17 @@ module.exports = {
         sans: [
           'Open Sans'
         ]
-      }
+      },
+      screens:{
+        'sidebar': '1170px',
+        '2xl': '900px',
+        'xl': '750px' ,
+        'lg': '605px',
+        'table': '582px',
+        'md': '491px',
+        'sm': '395px',
+        
+      },
     },
   },
   plugins: [

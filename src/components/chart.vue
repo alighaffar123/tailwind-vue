@@ -1,6 +1,6 @@
 <template>
-    <div class=" container px-[30px] pb-[30px] ">
-        <div class=" grid grid-cols-[64%_33%] grid-rows-[360px] gap-[27px] ">
+    <div class=" container max-w-full px-[30px] pb-[30px] ">
+        <div class=" grid xl:grid-cols-[64%_33%] grid-cols-1 xl:grid-rows-[360px] grid-rows-[360px_360px] gap-[27px] ">
             <div class=" bg-white drop-shadow m-0">
                 <div class="relative h-[50px] mb-1 bg-Lotion">
                     <span class=" block w-full h-[1px] bg-light-Gray absolute bottom-[-1px] "></span>
@@ -10,7 +10,7 @@
                             <fa icon="sort-down" class="text-Dim-Gray mb-[3px] text-[13px] font-bold" />
                         </a>
                         <div class=" flex items-center">
-                            <div class="">
+                            <div class="md:inline-block hidden">
                                     <a href="">
                                         <span class=" hover:text-primary text-Crayola text-[13px] mr-[10px] ">
                                             Daily

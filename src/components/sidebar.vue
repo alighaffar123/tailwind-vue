@@ -1,5 +1,5 @@
 <template>
-  <aside class="fixed w-[285px] bg-olive">
+  <aside class="fixed sidebar:block hidden w-[285px] bg-olive">
     <div
       class="h-[58px] text-white bg-primary flex justify-center items-center"
     >

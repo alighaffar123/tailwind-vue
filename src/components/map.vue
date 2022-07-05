@@ -1,7 +1,8 @@
 <template>
-    <div class=" container px-[30px] pb-[30px]">
-        <div class=" grid grid-rows-[330px] grid-cols-2">
-            <div class="h-full">
+    <div class=" container max-w-full px-[30px] pb-[30px]">
+        <div class=" grid 2xl:grid-rows-[330px] sm:grid-rows-[330px_330px] grid-rows-[330px_635px] grid-cols-[100%] 2xl:grid-cols-[60%_40%] ">
+           
+            <div class="h-full w-full">
                 <GoogleMap
                     api-key="AIzaSyCZcLipUHRw-52ddpIL6bHLAW9Q5nfYvzo"
                     class="h-full w-full"
@@ -11,7 +12,7 @@
                     <Marker :options="{ position: center }" />
                 </GoogleMap>
             </div>
-            <div  class="bg-white grid grid-rows-[40%_60%] grid-cols-[100%] p-4  ">
+            <div  class="bg-white w-full grid sm:grid-rows-[55%_45%] grid-rows-[120px_500px]  grid-cols-[100%] p-4  ">
                 <div class=" relative ">
                     <a href="" class=" absolute right-0 top-[-6px] ">
                         <fa icon="xmark" class=" text-Crayola text-[20px]"/>
@@ -23,8 +24,8 @@
                         <p class=" m-0 text-sm w-[91%] text-Dark-Gray "> Easyto review sales activies by the world map to the improve markit planing </p>
                     </div>
                 </div>
-                <div class=" flex justify-center  ">
-                    <div  class=" w-[100px] h-[100px] bg-[#ccc] rounded-full relative ">
+                <div class="sm:flex grid grid-rows-3 sm:grid-rows-none grid-cols-1  sm:grid-cols-none justify-center  ">
+                    <div  class=" mx-auto sm:ms-0 my-5 sm:my-0 w-[100px] h-[100px] bg-[#ccc] rounded-full relative ">
                         
                         <div style="clip: rect(0px, 100px, 100px, 50px);" class="w-[100px] h-[100px] rounded-full absolute ">
                             <div style="clip: rect(0px, 50px, 100px, 0px);" class="rotate-90 animate-[fill_ease-in-out_3s] w-[100px] h-[100px] rounded-full  bg-primary absolute"></div>
@@ -36,7 +37,7 @@
                         <p class=" text-[15px] absolute bottom-[-25px] left-[5px]  text-center text-[#756f6f] ">United State</p>
                   
                     </div>
-                    <div  class="w-[100px] h-[100px] bg-[#ccc] mx-auto rounded-full relative ">
+                    <div  class="w-[100px] my-5 sm:my-0 h-[100px] bg-[#ccc] mx-auto rounded-full relative ">
                         
                         <div style="clip: rect(0px, 100px, 100px, 50px);" class="w-[100px] h-[100px] rounded-full absolute ">
                             <div style="clip: rect(0px, 50px, 100px, 0px);" class="rotate-90 animate-[fill_ease-in-out_3s] w-[100px] h-[100px] rounded-full  bg-primary absolute"></div>
@@ -50,7 +51,7 @@
                         <p class=" text-[15px] absolute bottom-[-25px] left-[5px]  text-center text-[#756f6f] ">United State</p>
                     
                     </div>
-                    <div  class=" w-[100px] h-[100px] bg-[#ccc] rounded-full relative  ">
+                    <div  class="mx-auto sm:ms-0 my-5 sm:my-0 w-[100px] h-[100px] bg-[#ccc] rounded-full relative  ">
                         
                         <div style="clip: rect(0px, 100px, 100px, 50px);" class="w-[100px] h-[100px] rounded-full absolute ">
                             <div style="clip: rect(0px, 50px, 100px, 0px);" class="rotate-90 animate-[fill_ease-in-out_3s] w-[100px] h-[100px] rounded-full  bg-primary absolute"></div>

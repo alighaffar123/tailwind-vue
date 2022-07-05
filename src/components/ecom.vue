@@ -1,7 +1,7 @@
 <template>
-    <div class=" container p-[30px]">
+    <div class=" container max-w-full p-[30px]">
         <h3 class=" text-Davy-Grey text-[21px] font-bold mb-[30px] ">Ecommerce Overview</h3>
-        <div class=" grid grid-cols-4 grid-rows-[75px] gap-[24px] ">
+        <div class=" grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 xl:grid-rows-[75px] md:grid-rows-[75px_75px] grid-rows-[75px_75px_75px_75px] gap-[24px] ">
             <div class=" grid grid-cols-[35%_65%] drop-shadow">
                 <div class=" flex justify-center items-center bg-primary">
                     <fa icon="scale-balanced" class="text-white text-[40px] " />

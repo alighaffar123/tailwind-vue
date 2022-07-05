@@ -1,8 +1,8 @@
 <template>
-    <div class=" container px-[30px] pb-[30px] ">
-        <div class=" grid grid-cols-[64%_33%] grid-rows-[380px] gap-[27px] ">
+    <div class=" container max-w-full px-[30px] pb-[30px] ">
+        <div class=" grid 2xl:grid-cols-[64%_33%] grid-cols-[100%] 2xl:grid-rows-[380px]  lg:grid-rows-[380px_190px]  grid-rows-[400px_400px]  gap-[27px] ">
             <div class="bg-white drop-shadow m-0">
-                <div class="relative h-[50px] mb-1 bg-Lotion">
+                <div class="relative h-[50px] mb-1 bg-Lotion">                  
                     <span class=" block w-[100%] h-[1px] bg-light-Gray absolute bottom-[-1px] "></span>
                     <div class=" flex h-[100%] flex-wrap items-center justify-between py-2 px-3  ">
                         <a href="">
@@ -14,17 +14,17 @@
                         </a>
                     </div>    
                 </div>
-                <div class="px-4 ">
-                    <table class=" ">
+                <div class="px-4 table:overflow-hidden overflow-auto overflow-y-hidden ">
+                    <table class="w-full">
                         <div class=" ">
                             <tr class=" relative " >
-                                <span class=" block w-[92%] h-[1px] bg-light-Gray absolute top-[89px] "></span>
+                                <span class=" block w-[92%] h-[1px] bg-light-Gray absolute table:top-[89px] top-[100px] "></span>
                                 <th class=" text-left pl-0 py-[8px] px-[20px] text-[13px] text-dark-silver">Image</th>
-                                <th class=" text-left py-[8px] px-[14px] text-[13px] text-dark-silver">Product Code</th>
-                                <th class=" text-left py-[8px] px-[14px] text-[13px] text-dark-silver">Custmer</th>
-                                <th class=" text-left py-[8px] px-[14px] text-[13px] text-dark-silver">Purchased On</th>
-                                <th class=" text-left py-[8px] px-[14px] text-[13px] text-dark-silver">Status</th>
-                                <th class=" text-left py-[8px] px-[14px] text-[13px] text-dark-silver">Tracking No#</th>
+                                <th class=" text-left py-[8px] table:px-[5px] px-[15px] text-[13px] text-dark-silver">Product Code</th>
+                                <th class=" text-left py-[8px] table:px-[5px] px-[15px] text-[13px] text-dark-silver">Custmer</th>
+                                <th class=" text-left py-[8px] table:px-[5px] px-[15px] text-[13px] text-dark-silver">Purchased On</th>
+                                <th class=" text-left py-[8px] table:px-[5px] px-[15px] text-[13px] text-dark-silver">Status</th>
+                                <th class=" text-left py-[8px] table:px-[5px] px-[15px] text-[13px] text-dark-silver">Tracking No#</th>
                             </tr>
                         </div>
                         <tbody>
@@ -32,19 +32,19 @@
                                 <td class="pl-0 mr-3 text-dark-silver py-[10px] px-[25px] text-[13px] h-[74px] ">
                                     <img class=" w-[40px] h-[50px] object-cover " src="../assets/img/order/shirt1.jpeg" alt="" />
                                 </td>
-                                <td class=" text-dark-silver py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>3bn8d9s</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>salman</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>27 sep 2015</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span class=" bg-Dark-Lemon text-white text-[13px] leading-none  mr-2 px-[6px] py-[1px] rounded-lg ">paid</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>#Gb58T8755675</span>
                                 </td>
                             </tr>
@@ -52,19 +52,19 @@
                                 <td class="pl-0 mr-3 text-dark-silver py-[10px] px-[25px] text-[13px] h-[74px] ">
                                     <img class=" w-[40px] h-[50px] object-cover " src="../assets/img/order/shirt4.jpeg" alt="" />
                                 </td>
-                                <td class=" text-dark-silver py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>3bn8d9s</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>salman</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>27 sep 2015</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span class="bg-[#74736f] text-white text-[13px] leading-none  mr-2 px-[6px] py-[1px] rounded-lg ">Failed</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>#Gb58T8755675</span>
                                 </td>
                             </tr>
@@ -72,19 +72,19 @@
                                 <td class="pl-0 mr-3 text-dark-silver py-[10px] px-[25px] text-[13px] h-[74px] ">
                                     <img class=" w-[40px] h-[50px] object-cover "  src="../assets/img/order/shirt2.jpeg" alt="" />
                                 </td>
-                                <td class=" text-dark-silver py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>3bn8d9s</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>salman</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>27 sep 2015</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span class=" bg-Dark-Lemon text-white text-[13px] leading-none  mr-2 px-[6px] py-[1px] rounded-lg ">paid</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>#Gb58T8755675</span>
                                 </td>
                             </tr>
@@ -92,19 +92,19 @@
                                 <td class="pl-0 mr-3 text-dark-silver py-[10px] px-[21px] text-[13px] h-[74px] ">
                                     <img class=" w-[40px] h-[50px] object-cover "  src="../assets/img/order/shirt3.jpeg" alt="" />
                                 </td>
-                                <td class=" text-dark-silver py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>3bn8d9s</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>salman</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>27 sep 2015</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span class="bg-[#74736f] text-white text-[13px] leading-none  mr-2 px-[6px] py-[1px] rounded-lg ">Failed</span>
                                 </td>
-                                <td class=" text-dark-silver  py-[10px] px-[14px] text-[13px] h-[74px] ">
+                                <td class=" text-dark-silver  py-[10px] table:px-[5px] px-[15px] text-[13px] h-[74px] ">
                                     <span>#Gb58T8755675</span>
                                 </td>
                             </tr>
@@ -114,7 +114,7 @@
                     </table>
                 </div>
             </div>
-            <div class=" grid grid-rows-2 grid-col-[100%] gap-[30px]">
+            <div class=" grid grid-rows-2 lg:grid-rows-1 2xl:grid-rows-2 2xl:grid-cols-1 lg:grid-cols-2 grid-cols-1 gap-[30px]">
                 <div class=" bg-white grid-row-[60%_40%] grid-cols-[100%] ">
                     <div id="chart">
                         <apexchart

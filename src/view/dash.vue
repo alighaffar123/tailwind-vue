@@ -1,7 +1,7 @@
 <template>
     <!-- sidebar -->
 	<sidebar/>
-    <div class=" w-[calc(100%-285px)]  ml-auto">
+    <div class=" w-full sidebar:w-[calc(100%-285px)]  ml-auto">
         <!-- navbar -->
         <nav-bar />
         <div class="inner-content">
