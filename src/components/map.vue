@@ -31,7 +31,7 @@
                             <div style="clip: rect(0px, 50px, 100px, 0px);" class="rotate-90 animate-[fill_ease-in-out_3s] w-[100px] h-[100px] rounded-full  bg-primary absolute"></div>
                         </div>
                         
-                        <div class=" h-[85px] w-[85px] rounded-full bg-[#ffffff] leading-[90px] text-center mt-[7px] ml-[7px] text-primary  absolute text-[20px] ">
+                        <div class=" hover:text-[30px] hover:h-[90px] hover:w-[90px] hover:mt-[5px] hover:ml-[5px] h-[85px] w-[85px] rounded-full bg-[#ffffff] leading-[90px] text-center mt-[7px] ml-[7px] text-primary  absolute text-[20px] ">
                             25%
                         </div>
                         <p class=" text-[15px] absolute bottom-[-25px] left-[5px]  text-center text-[#756f6f] ">United State</p>
@@ -45,7 +45,7 @@
                         <div style="clip: rect(0px, 100px, 100px, 50px);" class=" rotate-90 animate-[fill_ease-in-out_3s]  w-[100px] h-[100px] rounded-full absolute">
                             <div style="clip: rect(0px, 50px, 100px, 0px);" class=" rotate-90 animate-[fill_ease-in-out_3s]  w-[100px] h-[100px] rounded-full bg-primary absolute"></div>
                         </div>
-                        <div class=" h-[85px] w-[85px] rounded-full bg-[#ffffff] leading-[90px] text-center mt-[7px] ml-[7px] text-primary  absolute text-[20px] ">
+                        <div class=" hover:text-[30px] hover:h-[90px] hover:w-[90px] hover:mt-[5px] hover:ml-[5px] h-[85px] w-[85px] rounded-full bg-[#ffffff] leading-[90px] text-center mt-[7px] ml-[7px] text-primary  absolute text-[20px] ">
                             50%
                         </div>
                         <p class=" text-[15px] absolute bottom-[-25px] left-[5px]  text-center text-[#756f6f] ">United State</p>
@@ -59,7 +59,7 @@
                         <div style="clip: rect(0px, 100px, 100px, 50px);" class=" rotate-90 animate-[fill_ease-in-out_3s]  w-[100px] h-[100px] rounded-full absolute">
                             <div  class=" rotate-90 animate-[fill_ease-in-out_3s]  w-[100px] h-[100px] rounded-full bg-primary absolute"></div>
                         </div>
-                        <div class=" h-[85px] w-[85px] rounded-full bg-[#ffffff] leading-[90px] text-center mt-[7px] ml-[7px] text-primary  absolute text-[20px] ">
+                        <div class=" hover:h-[90px] hover:w-[90px] h-[85px] w-[85px] rounded-full bg-[#ffffff] leading-[90px] text-center hover:mt-[5px] hover:ml-[5px] mt-[7px] ml-[7px] text-primary  absolute  hover:text-[30px] text-[20px] ">
                             75%
                         </div>
                         <p class=" text-[15px] absolute bottom-[-25px] left-[5px]  text-center text-[#756f6f] ">United State</p>
