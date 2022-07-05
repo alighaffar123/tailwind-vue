@@ -14,7 +14,7 @@
                         </a>
                     </div>    
                 </div>
-                <div class="px-4 table:overflow-hidden overflow-auto overflow-y-hidden ">
+                <div class="px-4 scrollbar-hide table:overflow-hidden overflow-auto overflow-y-hidden ">
                     <table class="w-full">
                         <div class=" ">
                             <tr class=" relative " >
