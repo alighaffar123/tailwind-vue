@@ -37,7 +37,7 @@ module.exports = {
         '2xl': '900px',
         'xl': '750px' ,
         'lg': '605px',
-        'table': '582px',
+        'table': '583px',
         'md': '491px',
         'sm': '395px',
         
